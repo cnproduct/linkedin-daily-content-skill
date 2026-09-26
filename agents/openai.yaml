@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Daily B2B Content"
+  short_description: "Diverse daily image packs with verified PNG delivery"
+  default_prompt: "Use $linkedin-daily-content to prepare four images and an English LinkedIn caption for today."
