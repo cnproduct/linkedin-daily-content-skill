@@ -25,7 +25,7 @@ Read [local-profile.md](references/local-profile.md) for this user's paths and r
 - Prefer relevant real employee sample checks, packing/shipping, development meetings, real product-specific certificates/reports, and real product photographs, in that order.
 - Real photographs may receive deterministic cropping, resizing, and typography. Do not generatively redraw faces, premises, certificates, or product structure.
 - Use readable certificates/reports only when actually present and matching the product. Never invent, repair, infer, or modify certificate names, IDs, conclusions, marks, or results. Exclude images containing private customer or personal information.
-- AI images are **AI概念示意图 / AI concept visuals**. Put a concise visible concept label on cards and use concept, idea, or direction in captions. Do not represent them as existing company products, real samples, factories, employees, meetings, certificates, customer cases, or validated designs.
+- AI images are **AI概念示意图 / AI concept visuals**. Never put the letters "AI" or the words "artificial intelligence" or "人工智能" in final image pixels, including generated artwork and overlaid text. A neutral visible label such as "CONCEPT VISUAL" is suitable. Disclose AI origin explicitly in the caption file and use concept, idea, or direction in public copy. Do not represent concepts as existing company products, real samples, factories, employees, meetings, certificates, customer cases, or validated designs.
 - Do not invent MOQ, fees, delivery times, materials, safety, sealing, temperature resistance, certifications, patents, performance, production status, or customer endorsements. Discuss questions to evaluate instead.
 - Use built-in imagegen by default, one call per distinct card; do not silently substitute CLI/API generation. For real-photo deterministic layouts, Pillow is appropriate. Use AI edits only for concept visuals and explicitly authorized image changes.
 
@@ -36,4 +36,3 @@ Write a short buyer-facing opening, two or three useful observations about visib
 ## Recurring runs and improvements
 
 Daily runs use the schedule configured by the user (06:00 Asia/Shanghai here). On a demonstrated workflow improvement, update the installed skill, validate changes, and synchronize only skill code/documentation to its configured GitHub repository through Chrome. Read maintenance guidance. Preserve schedule and user authorization boundaries. An unattended browser failure is a failed sync, never a successful publish.
-
